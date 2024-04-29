@@ -1,0 +1,25 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.validation_form_para {
+    font-size: 12px;
+}
+
+.img-smal {
+    width: 80vh;
+    height: 90vh;
+}
+
+@media (max-width:590px) {
+    .img-smal {
+        width: 80%;
+        height: 50%;
+        order: 1;
+        display: block;
+    }
+}`, "",{"version":3,"sources":["webpack://./src/pages/style.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI;QACI,UAAU;QACV,WAAW;QACX,QAAQ;QACR,cAAc;IAClB;AACJ","sourcesContent":[".validation_form_para {\n    font-size: 12px;\n}\n\n.img-smal {\n    width: 80vh;\n    height: 90vh;\n}\n\n@media (max-width:590px) {\n    .img-smal {\n        width: 80%;\n        height: 50%;\n        order: 1;\n        display: block;\n    }\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {};
+export default ___CSS_LOADER_EXPORT___;
